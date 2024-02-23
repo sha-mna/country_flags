@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="country.css">
+
+</head>
+<body>
+    <header class="headerContainer">
+        <div class="headerContent">
+            <h2 class="title"><a href="/">Where in the World?</a></h2>
+            <p><i class="fa-regular fa-moon"></i>&nbsp;&nbsp; Dark Mode</p>
+        </div>       
+    </header>
+    <main>
+        <div class="countryDetailsContainer">
+            <span class="backButton" onclick="history.back()">
+                <i class="fa-solid fa-arrow-left"></i>&nbsp; &nbsp;
+                Back
+            </span>
+            <div class="countryDetails">
+                <img src="" alt="">
+                <div class="detailsTextContainer">
+                    <h1>Jordan</h1>
+                    <div class="detailsText">
+                        <p><b>Native Name </b><span class="nativeName"></span></p>
+                        <p><b>Population: </b><span class="population"></span></p>
+                        <p><b>Region: </b><span class="region"></span></p>
+                        <p><b>Sub Region: </b><span class="subRegion"></span></p>
+                        <p><b>Capital: </b><span class="capital"></span></p>
+                        <p><b>Top Level Domain: </b><span class="topLevelDomain"></span></p>
+                        <p><b>Currencies: </b><span class="currencies"></span></p>
+                        <p><b>Languages: </b><span class="languages"></span></p>
+                    </div>
+                    <div class="borderCountries">
+                        <b>Border Countries </b>&nbsp; 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="country.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries List</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+
+    <div class="container">
+        <div class="searchWrapper">
+            <input 
+                type="text"
+                id="country-inp"
+                placeholder="Enter a country name here"
+            />
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="countries.js"></script>
+</body>
+</html>    -->
+
+                            <!-- PROJECT 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTRY LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body class="dark">
+    <header class="headerContainer">
+        <div class="headerContent">
+            <h2 class="title"><a href="/">Where in the world?</a></h2>
+            <p class="themeChanger"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp; Dark Mode</p>
+        </div>       
+    </header>
+    <main> 
+        <div class="searchFilterContainer">
+            <div class="searchContainer">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for a country...">
+            </div>
+            <select class="filterByRegion">
+                <option hidden>Filter By Region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+
+        </div> 
+        <div class="countriesContainer"> 
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
